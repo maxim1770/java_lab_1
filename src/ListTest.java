@@ -89,6 +89,12 @@ public class ListTest {
         l.addBack(123);
         l.addBack(123);
         l.addBack(123);
+
+        l.addFront(-1);
+
+        l.delEl(2);
+        l.delEl(11);
+
         l.printList();
     }
 }
